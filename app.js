@@ -12,7 +12,7 @@ let green = 0.587
 //and maybe a more detailed version "@N%Q&WMgm$0BDRH#8d)bUAqhGwKpXk9V6P]Eyun[41ojae2S5YfZx(lI)F3{CtJviT7srz\Lc/?*!+<;^=",:_'.` "
 //also performance.
 function convertToASCII(filename){
-    jimp.read(__dirname + '/test/images' + filename, (err, img) => {
+    jimp.read(__dirname + '/test/images/' + filename, (err, img) => {
         if (err) throw err;
         for(let i = 0; i <= img.getWidth(); i++){
             fs.appendFileSync(__dirname + "/test/results/result.txt",'\r\n', (err) => {throw err})
