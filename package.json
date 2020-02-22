@@ -7,6 +7,8 @@
     "test": "test"
   },
   "dependencies": {
+    "cli-progress": "^3.6.0",
+    "colors": "^1.4.0",
     "express": "^4.17.1",
     "jimp": "^0.9.3"
   },
@@ -24,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/auditt98/ImageToAscii/issues"
   },
-  "homepage": "https://github.com/auditt98/ImageToAscii#readme"
+  "homepage": "https://github.com/auditt98/ImageToAscii#readme",
+  "bin": {
+    "texty": "app.js"
+  }
 }
