@@ -1,4 +1,4 @@
-## ASCII Converter
+## Image to ASCII
 *Convert an image into simple ASCII characters*
 
 View the result.txt in zoomed out Nodepad++ for the best result since I didn't resize the image.
