@@ -9,7 +9,7 @@
   "dependencies": {
     "cli-progress": "^3.6.0",
     "colors": "^1.4.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jimp": "^0.9.3"
   },
   "devDependencies": {},
